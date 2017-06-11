@@ -28,7 +28,7 @@ h1.onclick = changeBackground; // Funkcja bez nawiasów (tylko dla zdarzeń)
 
 // Sposób 3 - nasłuchiwanie zdarzeń (czy nie wystąpią określone okoliczności)
 var firstLink = document.getElementsByClassName('link')[0];
-function highlight(event) { // Pozwaladorać się do obiektu zdarzenia
+function highlight(event) { // Pozwala dorwać się do obiektu zdarzenia
     event.preventDefault(); // Zabezpiecza przed przeładowaniem strony
     event.stopPropagation(); // Wyłączyć do innych przykładów poza propaginacją
     // setTimeout(function(), 3000); // Opóźnienie o 3s
